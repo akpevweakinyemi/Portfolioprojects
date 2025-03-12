@@ -31,7 +31,7 @@ Where continent is not null
 --Where location like 'Nigeria'
 order by 1,2
 
---Countries with highest nfection rats compared to population
+--Countries with highest infection rates compared to population
 
 Select location,population,Max(total_cases) as HighestInfectionCount, Max((total_cases/population)) * 100 as 
 PercentPopulationInfected
